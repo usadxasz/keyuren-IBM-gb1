@@ -3,14 +3,13 @@
 
 详细教程，请看：
 
-Secrets变量：
-IBM_CF_USERNAME   IBM Cloud电子邮件地址
-IBM_CF_PASSWORD   IBM Cloud密码
-IBM_CF_APP_NAME   IBM应用名称
-V2_UUID           使用UUID生成器生成
+   | Secrets变量 | 形式 |
+  | --------------------- | ----------- |
+  | `IBM_CF_USERNAME`       | IBM Cloud 邮箱地址 |
+  | `IBM_CF_PASSWORD` | IBM Cloud 邮箱密码 |
+  | `IBM_CF_APP_NAME` | IBM Cloud 应用程序名 |
+  | `V2_UUID` | 自定义UUID码 |
+  | `V2_WS_PATH_VMESS` </br> `V2_WS_PATH_VLESS` | 变量选择一个，填入自定义PATH路径 |
 
-V2_WS_PATH_VMESS
-                  两选一后，path路径自定义
-V2_WS_PATH_VLESS
 
 致谢：P3TERX
